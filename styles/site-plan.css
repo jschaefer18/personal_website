@@ -31,6 +31,7 @@ Fonts are separated by a | */
 }
 
 
+
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
 body {
@@ -99,12 +100,13 @@ p {
 }
 
 p.colored {
-  background-color: var(--paragraph-background-color);
-  color: var(--paragraph-color-on-color);
+  background-color: var(--secondary-color);
+  color: var(--accent2-color);
 }
 
 nav {
-  background-color: var(--nav-background-color);
+  background-color: var(--primary-color);
+  color: var(--accent2-color);
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
