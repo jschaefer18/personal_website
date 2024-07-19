@@ -4,32 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link type="text/css" rel="stylesheet" href="styles/styles.css">
+    <link type="text/css" rel="stylesheet" href="styles/projectsstyles.css">
 </head>
 <body>
     <header>
-        <a id = "herologo" href="index.html"><img src="images/namelogo.png" alt="logo"></a>
+        <a href="index.html"><img id = "herologo" src="images/namelogo.png" alt="logo"></a>
         <a class = "navlink" href="index.html">About Me</a>
         <a class = "navlink" href="experience.html">Experience</a>
         <a class = "navlink" href="projects.html">Projects</a>
     </header>
     <main>
-      <h3 class = "title">Projects</h3>
-      <h4 class = "subtitle">Python</h4>
-      <p>These are all the projects that I have completed throughout my first year at the University of Brigham Young-Idaho. By doing these projects I was able to learn so much in such a short amount of time.
-         My Python projects consist of assignments from Intro to Programming and Programming with Functions. My final project in Programming with Functions is a NBA stats analysis software. This software allowed you to take the entire set of data from the NBA and display it for the user in a specified way. 
-         In Data Science Programming I also created a portfolio that showed off many of the projects that I worked on. If you are interested in any of these projects feel free to take a look.
-      </p>
-
-      <h4 class = "subtitle">Data Science</h4>
-      <p>
-  
-        In Data Science Programming I also created a portfolio that showed off many of the projects that I worked on. If you are interested in any of these projects feel free to take a look.
-      </p>
-      
-      <p>Images for the Page 3</p>
-        <img src="images/nbastats.png" alt="Nba program">
-        <img src="images/resume.png" alt="My resume">
+        <div id = "p1">
+            <h4 class = "title">Python</h4>
+            <p class = subtitle>These are all the projects that I have completed throughout my first year at the University of Brigham Young-Idaho. By doing these projects I was able to learn so much in such a short amount of time.
+               My Python projects consist of assignments from Intro to Programming and Programming with Functions. My final project in Programming with Functions is a NBA stats analysis software. This software allowed you to take the entire set of data from the NBA and display it for the user in a specified way. 
+               In Data Science Programming I also created a portfolio that showed off many of the projects that I worked on. If you are interested in any of these projects feel free to take a look.
+               <button id="herobutton" onclick="window.location='https://github.com/jschaefer18/pythonprojects/tree/main/Data%20Analysis'">Python Projects</button>
+            </p>
+        </div>
+        <div id = "p2">
+            <h4 class = "title">Data Science</h4>
+            <p class = "subtitle">
+            In Data Science Programming I also created a portfolio that showed off many of the projects that I worked on. If you are interested in a project about the distribution of names over time feel free to take look.
+            <button id="herobutton" onclick="window.location='https://jschaefer18.github.io/schaefer-portfolio/Projects/project1.html'">Name Project</button>
+            </p>
+        </div>
+        <img id = "nbapic" src="images/nbastats.png" alt="Nba program">
+        <img id = "resume" src="images/resume.png" alt="My resume">
     </main>
     <footer>
         <p id = "copyright">Copyright 2024©</p>
@@ -39,3 +40,5 @@
     </footer>
 </body>
 </html>
+
+
