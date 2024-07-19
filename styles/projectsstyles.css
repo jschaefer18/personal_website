@@ -155,7 +155,7 @@ main {
 }
 
 
-#herobutton {
+.herobutton {
     background-color: #A697A1;
     color: black;
     width: 100px;
